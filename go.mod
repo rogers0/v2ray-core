@@ -15,6 +15,20 @@ require (
 	google.golang.org/genproto v0.0.0-20180831171423-11092d34479b // indirect
 	google.golang.org/grpc v1.24.0
 	h12.io/socks v1.0.0
+	v2ray.com/core
 )
+
+replace v2ray.com/core => github.com/v2ray/v2ray-core
+replace v2ray.com/core/common/buf => github.com/v2ray/v2ray-core/common/buf
+replace v2ray.com/core/common/crypto => github.com/v2ray/v2ray-core/common/crypto
+replace v2ray.com/core/common/dice => github.com/v2ray/v2ray-core/common/dice
+replace v2ray.com/core/common/errors => github.com/v2ray/v2ray-core/common/errors
+replace v2ray.com/core/common/log => github.com/v2ray/v2ray-core/common/log
+replace v2ray.com/core/common/net => github.com/v2ray/v2ray-core/common/net
+replace v2ray.com/core/common/platform => github.com/v2ray/v2ray-core/common/platform
+replace v2ray.com/core/common/protocol => github.com/v2ray/v2ray-core/common/protocol
+replace v2ray.com/core/common/retry => github.com/v2ray/v2ray-core/common/retry
+replace v2ray.com/core/common/uuid => github.com/v2ray/v2ray-core/common/uuid
+
 
 go 1.13
